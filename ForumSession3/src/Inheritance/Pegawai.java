@@ -1,0 +1,18 @@
+package Inheritance;
+
+public class Pegawai {
+    protected String nama;
+    protected int umur;
+
+    // Constructor
+    public Pegawai(String nama, int umur) {
+        this.nama = nama;
+        this.umur = umur;
+    }
+
+    // Method untuk menampilkan informasi pegawai
+    public void tampilkanInfo() {
+        System.out.println("Nama : " + nama);
+        System.out.println("Umur : " + umur);
+    }
+}
